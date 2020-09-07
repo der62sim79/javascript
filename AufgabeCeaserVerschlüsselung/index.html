@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" ></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Bitte geben Sie Ihren Text zum Verschlüsseln ein!</label>
+                        <textarea class="form-control" id="txtDecode" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="encode()">Verschlüsseln</button>
+                </form>
+            </div>
+          </div>
+        <div>
+        <div class="card" >
+            <div class="card-body">
+                <button type="button" class="btn btn-primary" id="incrementChars" onclick="increaseShift()">Erhöhen</button>
+                <label for="shift" id="currentShift">0</label>
+                <button type="button" class="btn btn-primary" id="decrementChars" onclick="decreaseShift()">Verkleinern</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Bitte geben Sie Ihren Text zum Entschlüsseln ein!</label>
+                        <textarea class="form-control" id="txtEncode" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="decode()">Entschlüsseln</button>
+                </form>
+            </div>
+          </div>
+        <div>   
+    </div>  
+</body>
+</html>
