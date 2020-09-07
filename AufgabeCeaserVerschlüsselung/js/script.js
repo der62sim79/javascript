@@ -1,4 +1,4 @@
-var inputText;
-var valueToShiftChar = 0;
-var selection = "";
-​
+function encode() {
+    var x = document.getElementById("txtDecode").value;
+    document.getElementById("txtEncode").value = x;
+  }
